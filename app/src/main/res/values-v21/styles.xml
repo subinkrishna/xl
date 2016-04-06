@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <!-- Transition animation -->
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.Details" parent="AppTheme">
+        <item name="android:windowEnterTransition">@transition/details_window_enter</item>
+        <item name="android:windowReturnTransition">@transition/details_window_return</item>
+    </style>
+
+</resources>
